@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite">
+	<test verbose="2" name="test1">
+		<parameter name="driverName" value="chrome" />
+		<classes>
+			<class name="com.vchangyi.hr.server.systemsettings.ClearCache" />
+			<class name="com.vchangyi.hr.server.systemsettings.ChangePassword"></class>
+		</classes>
+	</test>
+</suite>
